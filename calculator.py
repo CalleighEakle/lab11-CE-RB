@@ -2,13 +2,14 @@
 # Partner 1: Ryan Bos
 # Partner 2: Calleigh Eakle
 
+import math
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-# First example
+
 def add(a, b): 
     return a + b
 
@@ -28,3 +29,30 @@ def exp(a, b):
     return a ** b
 
 
+def add(a, b):
+    answer = a + b
+    return answer
+    pass
+
+def subtract(a, b):
+    answer = a - b
+    return answer
+    pass
+
+def multiply(a, b):
+    answer = a * b
+    return answer
+    pass
+
+def log(a, b):
+    if a < 0:
+        print("LogarithmicError")
+    else:
+        answer = math.log(a, b)
+        return answer
+    pass
+
+def exponent(a, b):
+    answer = a ** b
+    return answer
+    pass
